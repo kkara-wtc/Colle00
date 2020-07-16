@@ -21,7 +21,7 @@ void	horizontal(int x, char left, char centre, char right)
 		{
 			ft_putchar(centre);
 		}
-		else if ( x == 0)
+		 if ( x >= 3)
 		{
 			ft_putchar(right);
 		}
